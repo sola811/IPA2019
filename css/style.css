@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 15px;
+	color: #333333;
+}
+h1, h2, h3, h4, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-type: none;
+}
+#DivMainWrap {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.TopNav {
+	width: 1000px;
+	height: 50px;
+	border-top: 1px solid rgba(0,255,0,0.3);
+	border-bottom: 1px solid rgba(0,255,0,0.3);
+	position: fixed;
+	top: 0;
+	background-color: white;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+}
+.TopNav ul {
+	display: flex;
+	margin: 0;
+	padding: 0 100px;
+	float: right;
+}
+.TopNav ul li {
+	list-style-type: none;
+	padding: 0 10px;
+}
+.TopNav ul li a {
+	display: inline;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 50px;
+}
+.TopNav img {
+	width: 80px;
+}
+.TopNav ul li:hover {
+	color: #1BBC35;
+}
